@@ -1,0 +1,115 @@
+.frame {
+    text-align: center;
+    background-color: #F3EBE4;
+    position: relative;
+    margin: auto;
+    margin-top: 150px;
+    width: 1100px;
+    height: 700px;
+    padding: 20px;
+    border-radius: 20px;
+    /*     
+    height: 1300px;
+    width: 1500px; */
+}
+
+.contain {
+    background-color: white;
+    text-align: center;
+    position: relative;
+    margin: auto;
+    margin-top: 150px;
+    width: 600px;
+    height: 400px;
+    /* padding: 20px; */
+    border-radius: 30px;
+}
+
+.left_side {
+    float: left;
+}
+
+.text_area {
+    text-align: left;
+}
+
+.product_image {
+    width: 300px;
+    height: 400px;
+    padding-right: 20px;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    opacity: 90%;
+}
+
+.product_image:hover {
+
+    opacity: 100%;
+}
+
+.right_side {  
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    padding: 10px;
+}
+
+.preview {
+    font-weight: bold;
+    font-size: 17px;
+    color: darkgray;
+    text-align: left;
+    opacity: 70%;
+}
+
+.right_side .title {
+    display: flex;
+    text-align: left; 
+    line-height: 90%;
+    font-size: 28px;
+}
+
+.new_price {
+    position: relative;
+    color: green;
+    font-size: 25px;
+    text-align: left;
+    font-weight: bold;
+}
+
+.old_price {
+    position: relative;
+    font-size: 16px;
+    text-align: right;
+    vertical-align: super;
+    text-decoration: line-through;
+}
+
+.btn_add {
+    margin-top: 10px;
+    margin-right: 5px;
+    background-color: green;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    height: 40px;
+    width: 200px;
+    border-style: none;
+    border-radius: 10px;
+}
+
+.cart {
+    height: 18px;
+    width: 22px;
+    text-align: left;
+}
+
+.btn_add:hover {
+    cursor: pointer;
+    background-color: darkgreen;
+}
+
+.btn_add:active {
+    background-color: rgb(16, 97, 16);
+    box-shadow: 0px 4px 5px green;
+    cursor: pointer;
+}

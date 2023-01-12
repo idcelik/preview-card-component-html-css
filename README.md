@@ -1,2 +1,1 @@
-# exercise-1-preview-card-component
- exercise-1-preview-card-component
+You can see my template in this link: <a href="https://codepen.io/idcelik/pen/zYLwPwW">Demo</a>
